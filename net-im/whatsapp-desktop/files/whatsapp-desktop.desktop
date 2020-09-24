@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=WhatsApp Desktop
+Comment=Modern communication, full privacy.
+Exec="/opt/whatsapp-desktop/WhatsApp"
+Terminal=false
+Type=Application
+Icon=whatsapp-desktop
+Categories=Network
