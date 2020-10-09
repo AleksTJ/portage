@@ -14,12 +14,12 @@ if [[ "${PV}" = 9999 ]] ; then
 	EGIT_REPO_URI="https://github.com/ricardomv/${PN}.git"
 else
 	SRC_URI="https://github.com/ricardomv/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
 fi
 
 LICENSE="GPL-2+"
 SLOT="0"
 IUSE=""
+KEYWORDS="~amd64 ~x86"
 
 DEPEND="${PYTHON_DEPEND}"
 RDEPEND="
